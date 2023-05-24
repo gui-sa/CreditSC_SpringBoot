@@ -1,4 +1,4 @@
-package com.creditoSC.credit.application.system.enummeration
+package com.creditoSC.credit.application.system
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

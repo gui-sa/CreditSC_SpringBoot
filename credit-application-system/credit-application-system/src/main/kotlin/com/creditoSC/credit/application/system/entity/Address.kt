@@ -1,3 +1,9 @@
 package com.creditoSC.credit.application.system.entity
 
-data class Address(val zipcode: String = "", var street: String = "")
+import jakarta.persistence.*
+
+@Embeddable
+data class Address(
+                @Column(nullable = false, unique = true) val zipcode: String = "",
+                @Column(nullable = false) var street: String = ""
+)

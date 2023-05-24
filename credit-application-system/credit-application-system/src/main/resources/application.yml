@@ -3,6 +3,9 @@ spring:
     url: jdbc:h2:mem:credit_request_system_db
     username: pizza
     password: pizza123
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
   h2:
     console:
       enabled: true
