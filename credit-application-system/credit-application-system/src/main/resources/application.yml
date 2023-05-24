@@ -2,10 +2,15 @@ spring:
   datasource:
     url: jdbc:h2:mem:credit_request_system_db
     username: pizza
-    password: pizza123
+    password:
   jpa:
+    show-sql: true
     hibernate:
-      ddl-auto: create-drop
+      properties:
+        hibernate.format_sql: true
+      # ddl-auto: create-drop
+    #usually you dont do that because you will lost information
+    # it will look for Vx__name.sql in db/migration
   h2:
     console:
       enabled: true
