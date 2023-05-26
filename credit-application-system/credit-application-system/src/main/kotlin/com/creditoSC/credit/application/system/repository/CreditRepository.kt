@@ -1,4 +1,4 @@
-package com.creditoSC.credit.application.system
+package com.creditoSC.credit.application.system.repository
 
 import com.creditoSC.credit.application.system.entity.Credit
 import org.springframework.data.jpa.repository.JpaRepository
