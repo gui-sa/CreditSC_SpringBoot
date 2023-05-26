@@ -1,2 +1,6 @@
 # CreditSC_SpringBoot
 Credit Enterprise Domain using Spring Boot and Kotlin
+
+
+# Descontinuada...
+Vou fazer lendo a documentacao... 
